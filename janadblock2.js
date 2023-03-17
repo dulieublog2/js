@@ -2,7 +2,7 @@
     function f() {
         var a = document.createElement("div");
         a.id = "levelmaxblock";
-        a.innerHTML = '<div class="inner"><div class="header"><div id="imgout2" class="mt-2 text-center"><img src="blob:https://www.janshare.com/3bf7ce5f-ab1f-43b2-82d7-1b414269358b" style="width:500px;" class="vienanhxuat"><br></div></div></div>';
+        a.innerHTML = '<div class="inner"><div class="header"><div id="imgout2" class="mt-2 text-center"><img src="https://lh3.googleusercontent.com/-QMf3BaPB3-Y/ZAyvyGbgjgI/AAAAAAAAE40/TdTy6P55qacI-7XGE2mvPiL_5ZjRSQAIACNcBGAsYHQ/s300/taochuviettay.png" style="width:500px;" class="vienanhxuat"><br></div></div></div>';
         document.body.append(a);
         document.body.style.overflow = "hidden";
         var b = a.querySelectorAll("button");
