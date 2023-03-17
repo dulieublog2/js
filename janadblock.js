@@ -2,7 +2,7 @@
     function f() {
         var a = document.createElement("div");
         a.id = "levelmaxblock";
-        a.innerHTML = '<div id="imgout2" class="mt-2 text-center"><img src="blob:https://www.janshare.com/3bf7ce5f-ab1f-43b2-82d7-1b414269358b" style="width:500px;" class="vienanhxuat"><br><a class="my-4 jbtn jbtn--border jbtn--primary2 jbtn--animated2" href="blob:https://www.janshare.com/3bf7ce5f-ab1f-43b2-82d7-1b414269358b" target="blank" id="downloadImg" title="Tải ảnh về" download="thiepchuc8-3"><i class="fas fa-cloud-download-alt"></i> Tải ảnh xuống</a> <div id="share-out"></div></div>';
+        a.innerHTML = '<div class="inner"><div class="header"><div id="imgout2" class="mt-2 text-center"><img src="blob:https://www.janshare.com/3bf7ce5f-ab1f-43b2-82d7-1b414269358b" style="width:500px;" class="vienanhxuat"><br><a class="my-4 jbtn jbtn--border jbtn--primary2 jbtn--animated2" href="blob:https://www.janshare.com/3bf7ce5f-ab1f-43b2-82d7-1b414269358b" target="blank" id="downloadImg" title="Tải ảnh về" download="thiepchuc8-3"><i class="fas fa-cloud-download-alt"></i> Tải ảnh xuống</a> <div id="share-out"></div></div></div></div>';
         document.body.append(a);
         document.body.style.overflow = "hidden";
         var b = a.querySelectorAll("button");
